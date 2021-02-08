@@ -1,0 +1,124 @@
+@import "../../scss/index.scss";
+
+.login {
+  background-color: var(--theme-color);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+  font-family: "dyslexicBold";
+}
+
+.login-card {
+  background-color: $font-light;
+  border: 0px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#image-login {
+  left: 0;
+  top: 70px;
+  object-fit: fill;
+  min-width: 300px;
+  min-height: 150px;
+  width: 500px;
+}
+
+.login-image {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  h2 {
+    font-family: "dyslexicBold";
+    color: $font-primary;
+    padding: 1%;
+    font-size: 80px;
+  }
+}
+
+.login-form {
+  width: 100%;
+  padding: 4%;
+
+  h2 {
+    font-family: "dyslexicBold";
+    font-size: 70px;
+  }
+}
+
+.ui.form {
+  padding-top: 2%;
+  h3 {
+    text-align: left;
+  }
+  .field {
+    .input {
+      input {
+        border-radius: 10px;
+        background: $font-light;
+        font-family: "dyslexicBold";
+      }
+    }
+  }
+
+  .square-login {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 6%;
+
+    .button {
+      background: $font-light;
+      padding: 15px;
+      border-radius: 15px;
+      margin-top: 4%;
+      font-family: "dyslexicBold";
+    }
+  }
+}
+
+.form-data {
+  padding-left: 20%;
+  padding-right: 20%;
+  h3 {
+    font-family: "dyslexicBold";
+  }
+}
+.forget-password {
+  margin-top: 60%;
+}
+
+.footer-login {
+  margin-top: 20%;
+  h2 {
+    font-weight: bold;
+    font-size: 3vh;
+    font-family: "dyslexicBold";
+  }
+}
+
+#plane-login {
+  position: absolute;
+  left: 36%;
+  top: 30%;
+  object-fit: fill;
+  min-width: 300px;
+  min-height: 150px;
+  width: 300px;
+}
+
+.btnLogin {
+  background-color: var(--theme-color) !important;
+}
+
+.btnRegister {
+  background-color: var(--theme-color) !important;
+}
